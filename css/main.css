@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+    ie9 {position:absolute; width:100%; height:76px; left:0; top:0; z-index:50; background:#3b3b3b; text-align:center; padding:10px 0; z-index:99999;}
+
+    #ie9 p {color:#e9e9e9; line-height:20px; font-size:16px; font-weight:bold;}
+
+    #ie9 ul { margin-top:15px; font-size:11px;}
+
+    #ie9 ul li {display:inline; margin:0 10px;}
+
+    #ie9 ul li a {color:#d6d6d6;}
+
+/*메인화면*/
+#main{
+    position:relative;
+}
+.main_tit{
+    text-align: center;
+    padding:18% 0;
+}
+.main_tit img{
+    max-width:100%;
+    height:auto;
+}
+
+.m_txt{
+    margin-top:50px;
+}
+.main_bg{
+    width:196px;;
+    height:100px;
+    background:url(../images/main/bg_cic.png) no-repeat center center;
+    background-size: contain;    
+    position:absolute;
+    z-index: 100;
+}
+.f_bg{
+    top:0;
+    left:0;
+}
+.b_bg{
+    background-image:url(../images/main/bg_cic02.png);
+    bottom:0;
+    right:0;
+}
+
+.more_btn{
+    font-family:'GmarketSansMedium';
+    font-size:20px;
+    border:1px solid #d59f9f;
+    width:200px;
+    height:50px;
+    line-height:50px;
+    position:absolute;
+    left:50%;
+    margin:-100px;
+    top:85%;
+}
+.more_btn a{
+    color:#d59f9f;
+    width:100%;
+    height:100%;
+    display:block;
+}
+
+/*제이쿼리 배경*/
+
+.pg-canvas{
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+

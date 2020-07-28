@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*뒤로가기*/
+
+.back{
+    background:url(../images/sub/home.png) no-repeat;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: absolute;
+    right:10%;
+    top:3%;
+    transition:all 0.3s;
+}
+
+.back a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.back:hover{
+    background-image:url(../images/sub/back.png);
+}
+/*컨텐츠*/
+
+#container{
+    padding:70px 0;
+    text-align:center;
+    background-color:#f9f9f9;
+    color:#505050;
+    overflow:hidden;
+}
+
+.main_con{
+    background:url(../images/sub/con_bg.png) no-repeat center top;
+    padding-top:50px;
+    padding-bottom:100px;
+}
+.main_con h2{
+    font-family:'GmarketSansBold';
+    padding-bottom:200px;
+    font-size:40px;
+}
+
+.list ul{
+    display:inline-block;
+}
+.list ul li{
+    width:300px;
+    float:left;
+    margin-bottom:63px;
+    margin-right:90px;    
+    text-align:left;
+    font-weight:600;
+    font-size:16px;
+    position:relative;
+    font-family:'GmarketSansLight';
+}
+.list ul li>p{
+    margin-bottom:5px;
+    margin-left:5px;
+}
+
+.box{
+    background:url(../images/sub/list01.png) no-repeat;
+    background-size:cover;
+    width:300px;
+    height:204px;    
+    overflow: hidden;
+}
+.box a{
+    width:100%;
+    height:100%;
+    display:block;
+    background:none;
+    opacity:0;
+    transition:opacity 0.5s;
+}
+.box span img{
+    width:30px;
+}
+
+.box span .phone{
+    width:19px;
+}
+.h_txt{
+    margin-bottom:10px;
+}
+
+.list01{}
+.list02{
+    background-image:url(../images/sub/list02.png);
+}
+.list03{
+    background-image:url(../images/sub/list03.png);
+}
+.list04{
+    background-image:url(../images/sub/list04.png);
+}
+.list05{
+    background-image:url(../images/sub/list05.png);
+}
+.list06{
+    background-image:url(../images/sub/list06.png);
+}
+.list07{
+    background-image:url(../images/sub/list07.png);
+}
+.list08{
+    background-image:url(../images/sub/list08.png);
+}
+.list09{
+    background-image:url(../images/sub/list09.png);
+}
+.list .h_txt{
+    display:none;
+}
+.list .h_img img{
+    display:none;
+}
+.list ul li:hover .h_txt{
+    display:block;
+}
+.list ul li:hover .h_img img{
+    display:inline;
+}
+.list ul li:hover a{
+    text-align: center;
+    width:300px;
+    height:204px;
+    box-sizing: border-box;
+    background:rgba(0,0,0,0.8);
+    font-size:25px;
+    border-radius:12px;    
+    padding:25% 0;
+    color:#ccc;
+    opacity:1;
+}

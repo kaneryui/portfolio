@@ -1,0 +1,508 @@
+@charset "utf-8";
+
+#fullpage{
+    font-family:'GmarketSansLight';    
+    color:#838383;
+}
+
+/*풀페이지*/
+
+/*메뉴*/
+
+#menu li {
+    height:100%;
+    line-height:40px;
+	display:inline-block;
+	color: #000;
+    border-radius:5px;
+    font-weight:100;
+}
+#menu li::after{
+    content:"";
+    display:block;
+    width:0;
+    height:3px;
+    background:#000;
+    transition:width 0.5s;
+}
+#menu li:hover::after{
+    width:100%;
+}
+#menu li.active{
+    font-weight:bold;
+    color:#666;
+}
+#menu li.active::after{
+    width:100%;
+}
+#menu li a{
+	text-decoration:none;
+}
+#menu li.active a:hover{
+}
+#menu li:hover{
+	background:rgba(247,247,247,0.3);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+    color:#000;
+}
+#menu{
+    background:rgba(255,255,255,0.4);
+	position:fixed;
+	top:0;
+	left:0;
+	height:80px;
+	z-index:9999;
+	width:100%;
+	padding:0;
+	margin:0;
+    text-align:left;
+    font-family: 'GmarketSansMedium';
+    padding:10px;
+    box-sizing: border-box;
+}
+
+
+/******소리바다******/
+
+/*1페이지*/
+
+.fir_page{
+    background:url(../images/sub/pagelist/sori_main_bg.png) no-repeat;
+}
+.fir_page h3{
+    padding-top:100px;
+    text-align: center;
+}
+.fir_page h3 img{
+    display:block;
+    margin:0 auto;
+    width:150px;
+}
+
+.main{
+    width:1000px;
+    margin:100px auto 0;
+}
+
+.main .page_screen{    
+    float: left;    
+    background:url(../images/sub/pagelist/sori_page.png)no-repeat;
+    background-size:cover;
+    text-indent:-9999px;
+    width:400px;
+    height:490px;
+    box-shadow:-3px 0px 30px rgba(0,0,0,0.1);
+}
+
+.main .page_txt{
+    margin-left:65%;
+    color:#838383;    
+    font-family: 'GmarketSansLight';
+}
+
+.page_txt h2{
+    font-size:30px;
+}
+.page_txt h1{
+    font-family: 'GmarketSansMedium';
+    font-size:50px;
+    background:url(../images/sub/pagelist/main_bar.png) no-repeat bottom left;
+    padding-bottom: 20px;
+}
+
+.page_txt dl{
+    margin-top:130px;
+    font-size:15px;
+}
+.page_txt dd{
+    margin-bottom:10px;
+}
+.page_txt dd:last-child{
+    margin-bottom:45px;
+}
+.btn{
+    border:1px solid #838383;
+    width:155px;
+    height:45px;
+}
+.btn a{
+    color:#838383;
+    padding-left:15px;
+    line-height:45px;
+    display:block;
+    transition:all 0.5s;
+}
+
+.btn a:hover{
+    background:#838383;
+    color:#fff;
+}
+
+/*2페이지*/
+
+.sec_page{
+    background:url(../images/sub/pagelist/sori_img.png) no-repeat right center;
+    background-size:contain;
+    padding:80px;
+}
+.sec_page h2{
+    font-family:'GmarketSansMedium';
+    font-size:35px;
+    padding-bottom:50px;
+}
+
+.sec_page .box{
+    width:50%;
+    height:80%;
+    background:#f9f9f9;
+    border-radius:15px;
+    padding:30px;
+    box-sizing:border-box;
+}
+.sec_page .box h3{}
+.sec_page .box h3 img{
+    display:block;
+    width:150px;
+}
+.sec_page .box_list{
+    font-size:14px;
+}
+.sec_page .box p{
+    margin-top:130px;
+}
+
+.sec_page .color{
+    padding:50px 0;
+}
+.sec_page .color .color_list{
+    line-height:100px;
+    margin-top: 20px;
+}
+.sec_page .color .fir_box{
+    display: inline-block;
+    text-align:center;
+    background:#75bcb6;
+    width:100px;
+    height:100px;
+    color:#fff;
+}
+.sec_page .color .sec_box{
+    display: inline-block;
+    text-align:center;
+    border:1px solid #505050;
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    color:#75bcb6;
+}
+
+.sec_page .favicon{
+    vertical-align: middle;
+}
+.sec_page .favicon img{
+    width:25px;
+    vertical-align: middle;
+}
+
+/*3페이지*/
+
+
+.thi_page{
+    background:#75bcb6;
+    color:#fff;
+    padding:80px;
+    position:relative;
+}
+
+.thi_page .tit{
+    font-family: 'GmarketSansMedium';
+    font-size:40px;
+    line-height:70px;
+    
+}
+
+.thi_page h4{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size:20px;
+}
+.line .text{
+    font-size:50px;
+    position:absolute;
+    transform:rotate(90deg);
+    right:-10%;
+    bottom:16%;
+}
+.line{
+    width:50%;
+    border:10px solid #fff;
+    border-radius:15px;
+    padding:20px;
+    position: absolute;
+    right:5%;
+    top:35px;
+}
+.line ul{
+    width:55%;
+}
+.line ul li{
+    width:80%;
+}
+.line ul li img{
+    width:100%;
+}
+.g_box_left{
+}
+.g_box_right{
+}
+.g_box_left{}
+.g_box_left .gif01{
+    width:40%;
+}
+.g_box_left .gif02{}
+
+/*마지막페이지*/
+
+.four_page{
+    text-align: center;
+}
+.four_page h1{
+    padding:5% 0;
+    font-family: 'GmarketSansBold';
+}
+.four_page img{
+    width:700px;
+    border:15px solid #fff;
+    box-shadow:-2px -2px 20px #eee;
+}
+.four_page p{
+    margin-top: 50px;
+}
+.four_page .btn{
+    margin:20px auto;
+}
+.four_page .btn a{
+    padding:0;
+}
+
+/******프로툴즈******/
+
+/*1페이지*/
+.protools_wrap .fir_page{
+    background:url(../images/sub/pagelist/pro_main.png);
+}
+.protools_wrap .page_screen{
+    background-image:url(../images/sub/pagelist/pro_page.png);
+}
+.protools_wrap .btn{
+    display:inline-block;
+}
+.protools_wrap .m_btn{
+    width:140px;
+    margin-left: 10px;
+}
+
+/*2페이지*/
+
+.pro_sec{
+    background-image:url(../images/sub/pagelist/pro_img.png);
+    position:relative;
+}
+
+.pro_sec .box{
+    width:440px;
+    height:650px;
+    border:0px;
+    border-radius:15px;
+    padding:30px;
+    box-sizing:border-box;
+    background:none;
+    
+}
+
+.pro_sec .phone_img{
+    background:url(../images/sub/pagelist/pro_mobile_img.png) no-repeat center center;
+    background-size:cover;
+    width:380px;
+    height:580px;    
+    box-shadow: -2px -2px 20px rgba(0,0,0,0.1);
+    border-radius:20px;
+}
+.pro_sec .full_gif{
+    box-shadow: -2px -2px 20px rgba(0,0,0,0.2);
+    position:absolute;
+    left:33%;
+    top:7%;
+    border-radius:15px;
+}
+.pro_sec .full_gif img{
+    display: block;    
+    border-radius:15px;
+}
+
+/*3페이지*/
+
+.pro_thi{
+    background:#8760d0;
+    color:#fff;
+    padding:80px;
+    position:relative;
+}
+.pro_thi .line{
+    position:relative;
+    left:50%;
+    height:90%;
+    top:-25%;
+}
+.pro_thi .gif02{
+    width:103%;
+    margin-top:38px;
+    
+}
+.pro_thi .gif03{
+    width:103%;
+    margin-top:135px;
+}
+.pro_thi .gif01{
+    position:absolute;
+    right:20px;
+}
+.pro_thi .pro_text{
+    position:absolute;
+    font-size:40px;
+    top:50%;
+    right:41%;
+    margin-right:30px;
+}
+
+
+/******부산종합버스터미널******/
+
+/*1페이지*/
+
+.busan_wrap .fir_page{
+    background-image:url(../images/sub/pagelist/busan_main.png);
+}
+.busan_wrap .page_screen{
+    background-image:url(../images/sub/pagelist/busan_page.png);
+    width:700px;
+    height:358px;
+    margin-top:30px;
+}
+
+.busan_wrap .main{
+    width:1500px;
+}
+
+/*2페이지*/
+
+.busan_sec{
+    background-image:url(../images/sub/pagelist/busan_logo.png);
+    background-size:200px;
+    background-position:80% center;
+}
+
+.busan_sec .box{
+    border:10px solid #535353;
+}
+
+.busan_sec .color .fir_box{
+    background:#000000;
+}
+
+/*3페이지*/
+
+.busan_thi{
+    
+    background-image:url(../images/sub/pagelist/busan_img.png);
+}
+.busan_thi .box{
+}
+.busan_thi .phone_img{
+    background:url(../images/sub/pagelist/busan_m_main.png);
+    background-position: center 10%;
+    box-shadow: -2px -2px 20px rgba(0,0,0,0.1);
+    border-radius:20px;
+}
+.busan_thi .box_text{
+    font-size:90px;
+    position:absolute;
+    top:30%;
+    left:45%;
+}
+.busan_thi .full_gif img{
+    width:450px;
+    left:60%;
+}
+/*4페이지*/
+
+.busan_four{
+    background:#535353;
+}
+.busan_four .line{
+    height:85%;
+}
+.busan_four .line .text{}
+
+.busan_four .g_box_left{
+    width:150%;
+}
+.busan_four .g_box_right{
+    width:90%;
+}
+/*5페이지*/
+
+
+
+/******sk-ii******/
+
+/*1페이지*/
+.sk_wrap .fir_page{
+    background:url(../images/sub/pagelist/sk_main.png);
+}
+.sk_wrap h3 img{
+    width:100px;
+}
+
+.sk_wrap .page_screen{
+    background-image:url(../images/sub/pagelist/sk_page.png);
+}
+.sk_wrap .btn{
+    display:inline-block;
+}
+.sk_wrap .s_btn{
+    width:180px;
+}
+/*2페이지*/
+
+.sk_sec{
+    background-image:url(../images/sub/pagelist/sk_img.png);
+}
+.sk_sec .full_gif img{
+    width:479px;
+}
+
+.sk_sec .phone_img{
+    background-image:url(../images/sub/pagelist/sk_mobile_img.png);
+}
+
+/*3페이지*/
+
+.sk_thi{
+    background:#98012e;
+}
+.sk_thi .line{
+    height:87%;
+}
+.sk_thi .g_box_left{
+    width:150%;
+}
+.sk_thi .g_box_right{
+    width:75%;
+}

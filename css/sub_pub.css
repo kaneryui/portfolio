@@ -1,0 +1,323 @@
+@charset "utf-8";
+
+#fullpage{
+    font-family:'GmarketSansLight';    
+    color:#838383;
+}
+
+/*풀페이지*/
+
+/*메뉴*/
+
+#menu li {
+    height:100%;
+    line-height:40px;
+	display:inline-block;
+	color: #000;
+    border-radius:5px;
+    font-weight:100;
+}
+#menu li::after{
+    content:"";
+    display:block;
+    width:0;
+    height:3px;
+    background:#000;
+    transition:width 0.5s;
+}
+#menu li:hover::after{
+    width:100%;
+}
+#menu li.active{
+    font-weight:bold;
+    color:#666;
+}
+#menu li.active::after{
+    width:100%;
+}
+#menu li a{
+	text-decoration:none;
+}
+#menu li.active a:hover{
+}
+#menu li:hover{
+	background:rgba(247,247,247,0.3);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+    color:#000;
+}
+#menu{
+    background:rgba(255,255,255,0.4);
+	position:fixed;
+	top:0;
+	left:0;
+	height:80px;
+	z-index:9999;
+	width:100%;
+	padding:0;
+	margin:0;
+    text-align:left;
+    font-family: 'GmarketSansMedium';
+    padding:10px;
+    box-sizing: border-box;
+}
+
+
+
+/******할리스******/
+
+/*1페이지*/
+
+.fir_page{
+    background:url(../images/sub/publpage/hollys_main.png) no-repeat;
+}
+.fir_page h3{
+    padding-top:100px;
+    text-align: center;
+}
+.fir_page h3 img{
+    display:block;
+    margin:0 auto;
+    width:250px;
+}
+
+.main{
+    width:1000px;
+    margin:100px auto 0;
+}
+
+.main .page_screen{    
+    float: left;    
+    background:url(../images/sub/publpage/hollys_page.png)no-repeat;
+    background-size:cover;
+    text-indent:-9999px;
+    width:400px;
+    height:490px;
+    box-shadow:-3px 0px 30px rgba(0,0,0,0.1);
+}
+
+.main .page_txt{
+    margin-left:65%;
+    color:#838383;    
+    font-family: 'GmarketSansLight';
+}
+
+.page_txt h2{
+    font-size:30px;
+}
+.page_txt h1{
+    font-family: 'GmarketSansMedium';
+    font-size:50px;
+    background:url(../images/sub/pagelist/main_bar.png) no-repeat bottom left;
+    padding-bottom: 20px;
+}
+
+.page_txt dl{
+    margin-top:250px;
+    font-size:15px;
+}
+.page_txt dd{
+    margin-bottom:10px;
+	font-size:20px;
+}
+.page_txt dd:last-child{
+    margin-bottom:45px;
+}
+.btn{
+    border:1px solid #838383;
+    width:155px;
+    height:45px;
+}
+.btn a{
+    color:#838383;
+    padding-left:15px;
+    line-height:45px;
+    display:block;
+    transition:all 0.5s;
+}
+
+.btn a:hover{
+    background:#838383;
+    color:#fff;
+}
+
+
+/*2페이지*/
+
+.sec_page{
+    text-align: center;
+}
+.sec_page h1{
+    padding:5% 0;
+    font-family: 'GmarketSansBold';
+}
+.sec_page img{
+    width:700px;
+    border:15px solid #fff;
+    box-shadow:-2px -2px 20px #eee;
+}
+.sec_page p{
+    margin-top: 50px;
+}
+.sec_page .btn{
+    margin:20px auto;
+}
+.sec_page .btn a{
+    padding:0;
+}
+
+/******카페베네*******/
+
+/*1페이지*/
+
+.caffebene_wrap .fir_page{
+	background:url(../images/sub/publpage/caffe_main.png);
+}
+
+.caffebene_wrap h3 img{
+	width:180px;
+}
+.caffebene_wrap .page_txt{
+	color:#fff;
+}
+
+.caffebene_wrap .btn{
+    border:1px solid #fff;
+}
+.caffebene_wrap .btn a{
+    color:#fff;
+}
+
+.caffebene_wrap .btn a:hover{
+    background:rgba(247,247,247,0.3);
+    color:#fff;
+}
+
+.caffebene_wrap .main{
+	width:1200px;
+}
+.caffebene_wrap .page_screen{
+	background:url(../images/sub/publpage/caffe_page.png);
+	width:496px;
+}
+
+/******삼성디스플레이******/
+
+/*1페이지*/
+
+.samdis_wrap .fir_page{
+	background:url(../images/sub/publpage/samdis_main.png);
+	
+}
+.samdis_wrap .page_screen{
+	background:url(../images/sub/publpage/samdis_page.png);
+	width:496px;
+}
+.samdis_wrap .main{
+	width:1200px;
+}
+.samdis_wrap .btn{
+	display:inline-block;
+}
+.samdis_wrap .m_btn{
+    width:140px;
+    margin-left: 10px;
+}
+
+/*3페이지*/
+
+.thi_page{
+    background:url(../images/sub/publpage/samdis_img.png) no-repeat center right;
+    background-size:contain;
+	padding:90px;
+    position:relative;
+}
+
+.thi_page h2{
+    font-family:'GmarketSansMedium';
+    font-size:35px;
+    padding-bottom:50px;
+}
+
+.thi_page .box{}
+.thi_page .phone_img{
+    background:url(../images/sub/publpage/samdis_mobile_img.png) no-repeat ;
+    background-size:cover;
+    width:380px;
+    height:540px; 
+    box-shadow: -2px -2px 20px rgba(0,0,0,0.4);
+    border-radius:38px;
+}
+.thi_page .full_gif{    
+    border-radius:15px;
+    box-shadow: -2px -2px 20px rgba(0,0,0,0.2);
+    position:absolute;
+    left:33%;
+	top:6%;
+}
+.thi_page .full_gif img{
+    display:block;
+    border-radius:15px;
+}
+
+.thi_page .box_text{
+    font-size:90px;
+    position:absolute;
+    top:45%;
+    left:45%;
+}
+.thi_page .full_gif img{
+    width:450px;
+    left:60%;
+}
+
+/******한솔*******/
+/*1페이지*/
+.hansol_wrap .fir_page{
+	background:url(../images/sub/publpage/hansol_main.png);
+}
+.hansol_wrap h3 img{
+	width:120px;
+}
+.hansol_wrap .page_txt dl{
+	color:#f7f7f7;
+}
+.hansol_wrap a{
+	color:#f7f7f7;
+}
+.hansol_wrap .page_screen{
+	background:url(../images/sub/publpage/hansol_page.png);
+	width:495px;
+}
+
+.hansol_wrap .main{
+	width:1200px;
+}
+/*3페이지*/
+.hansol_wrap .thi_page{    
+    background:url(../images/sub/publpage/hansol_img.png)no-repeat center right;
+    background-size:contain;
+}
+.hansol_wrap .phone_img{
+	background:url(../images/sub/publpage/hansol_mobile_img.png);
+	background-size:cover;
+}
+/******삼성전기*******/
+
+/*1페이지*/
+.samelec_wrap .fir_page{
+	background:url(../images/sub/publpage/samelec_main.png);
+	
+}
+.samelec_wrap h3 img{
+	width:180px;
+}
+.samelec_wrap .page_screen{
+	background:url(../images/sub/publpage/samelec_page.png);
+	width:495px;
+}

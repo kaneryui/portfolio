@@ -1,0 +1,46 @@
+@charset"utf-8";
+
+/*푸터*/
+
+#footer{
+    padding:50px;
+    color:#505050;
+    position:relative;
+}
+
+.year{
+    background:url(../images/sub/f_bar.png) no-repeat left bottom;
+    padding:10px 0;
+    margin-bottom:50px;
+}
+.f_text{}
+.f_text p{
+    font-size:25px;
+    font-weight:900;
+}
+.f_text .name{}
+.f_text .e_mail{
+    font-size:18px;
+    font-weight:200;
+    margin-top: 10px;
+}
+
+
+/*탑버튼*/
+
+.t_btn{
+    width:80px;
+    height:80px;
+    background:url(../images/sub/t_btn.png)no-repeat;
+    background-size:cover;
+    position:absolute;
+    top:100px;
+    right:100px;
+    z-index:2000;
+}
+.t_btn a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
