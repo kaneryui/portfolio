@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+
+@media screen and (max-width:768px){
+    
+    /*웹 모바일화*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    /*웹뷰 안보임처리*/
+	.main_bg,.back,.page_txt dl,.text,.pro_sec .phone_img,.pro_text,.phone_img{display:none;}
+    
+    /*모바일뷰 보임처림*/
+    
+    
+    /**메인**/
+	
+	/*배경*/
+	
+	.main_tit{
+		text-align: center;
+		width:300px;
+		padding:0;
+		position:absolute;
+		top:30%;
+		left:50%;
+		margin-left:-144px;
+	}
+	
+	.m_txt{margin: 0;}
+	.pg-canvas{
+		position:relative;
+		height:350px;
+	}
+	.more_btn{
+		width:150px;
+		font-size:14px;
+		margin-left:-75px;
+		top:90%;
+	}
+	
+	/*푸터*/
+	
+	#footer{padding:10px;}
+	.f_text p{font-size:18px;}
+	.f_text .e_mail{font-size:14px;}
+	
+	/*포트폴리오 리스트*/
+	
+	#container{padding:20px 0;}
+	.main_con{background-image:none;}
+	.main_con h2{
+		padding-bottom:80px;
+		font-size:30px;
+	}
+	.list ul{
+		display: block;
+		overflow: hidden;
+	}
+	.list ul li{
+		margin:0 auto;
+		float: none;
+		padding-bottom:25px;
+		
+	}
+	.t_btn{
+		width:50px;
+		height:50px;
+		right:5%;
+		bottom:5%;
+		
+	}
+    
+    /****서브****/
+    
+    /*메뉴*/
+    #menu{
+        width:100%;
+        font-size:13px;
+        text-align: center;
+        padding:1%;
+        height:67px;
+    }
+    #menu li a, #menu li.active a{
+        padding:9px 17px;
+    }
+    /**소리바다**/
+    
+    /*1*/
+    .fir_page{background:none;}
+    .fir_page h3{padding-top:100px;}
+    .fir_page h3 img{width:130px;}
+    .main{
+        width:auto;
+        margin-top:50px;
+    }
+    .main .page_screen{
+        background-size:contain;
+        float:none;
+        width:70%;
+        height:0;
+        padding:43% 0;
+        margin:0 auto;
+    }
+    .main .page_txt{
+        margin:0;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .page_txt h2{font-size:20px;}
+    .page_txt h1{
+        font-size:20px;
+        background-size:50%;
+        background-position: bottom;
+    }
+    .btn{margin:10px auto 0;}
+    .btn a{padding:0;}
+    
+    /*2*/
+    
+    .four_page h1{
+        font-size:20px;
+        padding-top:100px;
+    }
+    .four_page img{width:80%;}
+    .four_page p{
+        font-size:14px;
+        padding:10%;
+    }
+    
+    /*3*/
+    .sec_page{
+        background:none;
+        padding:30px;
+    }
+    .sec_page h2{
+        font-size:20px;
+        font-family:'GmarketSansBold';
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top:50px;
+    }
+    .sec_page .box{
+        width:100%;
+        padding:5%;
+    }
+    .sec_page .box h3 img{
+        width:150px;
+        margin:0 auto;
+    }
+    .sec_page .box p{
+       margin-top:100px;
+    }
+    
+    /*4*/
+    
+    .thi_page{
+        padding:10px;
+    }
+    .thi_page .tit{
+        font-family:'GmarketSansBold';
+        text-align: center;
+        font-size:20px;
+        line-height:40px;
+        padding-top:80px;
+    }
+    .line{
+        width:70%;
+        height:52%;
+        top:35%;
+    }
+    .line ul li{
+        width:120%;
+    }
+    .g_box_left .gif01{
+        width:60%;
+    }
+    /**sk**/
+    
+    /*1*/
+    .sk_wrap .fir_page h3{padding-top: 80px;}
+    .sk_wrap .fir_page h3 img{width:70px;}
+    
+    /*2*/
+    
+    .pro_sec .full_gif{
+        width:70%;
+        top:inherit;
+        bottom:6%;
+        left:50%;
+        margin-left:-125px;
+    }
+
+    .pro_sec .full_gif img{
+        width:100%;
+        height:100%;
+    }
+    /*4*/
+    .sk_thi .line{
+        height:52%;
+    
+    }
+    /**프로툴즈**/
+
+    /*1*/
+    .protools_wrap .fir_page h3{padding-top:80px}
+    .protools_wrap .fir_page h3 img{width:90px;}
+    
+    /*4*/
+    
+   
+    .pro_thi .line{
+        width:70%;
+        height:35%;        
+        margin-left:-149px;
+        top:inherit;
+        bottom:-1%
+    }
+    .pro_thi .tit{
+        padding-bottom:50px;
+    }
+    .pro_thi .line{}
+    .pro_thi .line ul li{
+        width:40%;
+    }
+    .g_box_left .gif01{
+        width:60%;
+    }
+    .pro_thi .gif02{margin:0;}
+    .pro_thi .gif02 img{width:230%;}
+    .pro_thi .gif03{margin:0;}
+    .pro_thi .gif03 img{width:230%;}
+    
+    /**부산버스**/
+    
+    #menu.busan_menu{
+        padding:0.5%;
+        font-size:11px;
+    }
+    #menu.busan_menu li{}
+    #menu.busan_menu a{
+        padding:9px 9px;
+    }
+    
+    /*1*/
+    
+    .busan_wrap .fir_page{
+        background-image:none;
+    }
+    .busan_wrap .page_screen{
+        background-size:contain;
+        padding:28%;
+        margin-top:90px;
+    }
+    .busan_wrap .main{
+        background-size:contain;
+        float:none;
+        width:100%;
+        height:0;
+        margin:0 auto;
+    }
+    .busan_wrap .main .page_screen{
+        padding:20% 0;
+        margin-bottom:90px;
+        
+    }
+    
+    /*3*/
+    
+    .busan_sec .box_list .font{
+        margin-top: 80px;
+    }
+    /*4*/
+    .busan_four .line{
+        height:48%;
+    }
+    .busan_four .line .gif03{
+        width:111%;
+    }
+    
+    /**카페베네**/
+    
+    /*1*/
+    .caffebene_wrap .fir_page h3{padding-top:90px;}
+    .caffebene_wrap .fir_page h3 img{width:100px;}
+    .caffebene_wrap .fir_page{background:none;}
+    .caffebene_wrap .page_screen{        
+        background-size:cover;
+        padding:45% 0;
+        margin-top:30px;
+    }
+    .caffebene_wrap .main{
+        background-size:contain;
+        float:none;
+        width:100%;
+        height:0;
+        margin:0 auto;
+    }
+    .main .page_txt{
+        margin:0;
+        text-align: center;
+        padding-top: 10px;
+        color:#333;
+    }
+    .main .page_txt .btn{
+        border:1px solid #777;
+    }
+    .main .page_txt a{
+        color:#333;
+    }
+    
+    /*2*/
+    
+    .caffe_sec h1{
+        font-size:20px;
+        padding-top:80px;
+        padding-bottom:50px;
+    }
+    .caffe_sec img{width:80%;}
+    .caffe_sec p{
+        font-size:14px;
+        padding:10%;
+    }
+    
+    /**한솔**/
+    
+    /*2*/
+    
+    .hansol_wrap .hansol_thi{background:none;}
+    .hansol_thi .full_gif{
+        width:70%;
+        top:inherit;
+        bottom:6%;
+        left:50%;
+        margin-left:-125px;
+    }
+
+    .hansol_thi .full_gif img{
+        width:100%;
+        height:100%;
+    }
+    .hansol_thi h2{
+        font-size:20px;
+        font-family:'GmarketSansBold';
+        text-align: center;
+        padding-top:80px;
+    }
+    
+    /**할리스**/
+    
+    .holly_wrap h3 img{width:180px;}
+    
+    /**삼성디스플레이**/
+    
+    .samdis_wrap .samdis_thi{background:none;}
+    
+    
+
+}
