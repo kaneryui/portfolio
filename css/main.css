@@ -46,6 +46,7 @@
 }
 
 .more_btn{
+    text-align: center;
     font-family:'GmarketSansMedium';
     font-size:20px;
     border:1px solid #d59f9f;

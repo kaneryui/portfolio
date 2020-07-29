@@ -33,11 +33,15 @@
 		height:350px;
 	}
 	.more_btn{
+        text-align: center;
 		width:150px;
 		font-size:14px;
 		margin-left:-75px;
 		top:90%;
 	}
+    .more_btn a{
+        padding:0;
+    }
 	
 	/*푸터*/
 	
