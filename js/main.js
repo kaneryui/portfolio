@@ -27,6 +27,9 @@ $(document).ready(function(){
     })
     
     //wow
-    new WOW().init();
-    
+    wow = new WOW(
+	  {
+	  mobile:false,       // default
+	})
+	wow.init();
 });
