@@ -146,7 +146,6 @@
     }
     .sec_page .box h3 img{
         width:150px;
-        margin:0 auto;
     }
     .sec_page .box p{
        margin-top:100px;
@@ -166,7 +165,7 @@
     }
     .line{
         width:70%;
-        height:52%;
+        height:55%;
         top:35%;
     }
     .line ul li{
@@ -187,8 +186,8 @@
         width:70%;
         top:inherit;
         bottom:6%;
-        left:50%;
-        margin-left:-125px;
+        left:15%;
+        
     }
 
     .pro_sec .full_gif img{
@@ -197,7 +196,7 @@
     }
     /*4*/
     .sk_thi .line{
-        height:52%;
+        height:55%;
     
     }
     /**프로툴즈**/
@@ -212,9 +211,8 @@
     .pro_thi .line{
         width:70%;
         height:35%;        
-        margin-left:-149px;
         top:inherit;
-        bottom:-1%
+        left:10%;
     }
     .pro_thi .tit{
         padding-bottom:50px;
@@ -272,7 +270,7 @@
     }
     /*4*/
     .busan_four .line{
-        height:48%;
+        height:52%;
     }
     .busan_four .line .gif03{
         width:111%;
@@ -331,8 +329,7 @@
         width:70%;
         top:inherit;
         bottom:6%;
-        left:50%;
-        margin-left:-125px;
+        left:15%;
     }
 
     .hansol_thi .full_gif img{
