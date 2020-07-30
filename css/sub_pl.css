@@ -232,13 +232,7 @@
     font-weight: 400;
     font-size:20px;
 }
-.line .text{
-    font-size:50px;
-    position:absolute;
-    transform:rotate(90deg);
-    right:-10%;
-    bottom:16%;
-}
+
 .line{
     width:50%;
     border:10px solid #fff;
@@ -248,6 +242,18 @@
     right:5%;
     top:35px;
 }
+
+.line_box{
+    position:relative;
+}
+.line .text{
+    font-size:50px;
+    position:absolute;
+    right:0%;
+    bottom:5px;
+}
+
+
 .line ul{
     width:55%;
 }
@@ -257,6 +263,7 @@
 .line ul li img{
     width:100%;
 }
+
 .g_box_left{
 }
 .g_box_right{
@@ -283,12 +290,6 @@
 }
 .four_page p{
     margin-top: 50px;
-}
-.four_page .btn{
-    margin:20px auto;
-}
-.four_page .btn a{
-    padding:0;
 }
 
 /******프로툴즈******/
@@ -360,6 +361,9 @@
     height:90%;
     top:-25%;
 }
+.pro_thi .line_box{
+    position:relative;
+}
 .pro_thi .gif02{
     width:103%;
     margin-top:38px;
@@ -376,8 +380,8 @@
 .pro_thi .pro_text{
     position:absolute;
     font-size:40px;
-    top:50%;
-    right:41%;
+    left:10px;
+    top:40%;
     margin-right:30px;
 }
 
@@ -498,7 +502,7 @@
     background:#98012e;
 }
 .sk_thi .line{
-    height:87%;
+    height:85%;
 }
 .sk_thi .g_box_left{
     width:150%;
