@@ -481,6 +481,13 @@
 .sk_wrap .page_screen{
     background-image:url(../images/sub/pagelist/sk_page.png);
 }
+.sk_wrap .page_txt h1{
+	color:#555;
+}
+.sk_wrap .page_txt dl{
+	color:#000;
+}
+
 .sk_wrap .btn{
     display:inline-block;
 }
