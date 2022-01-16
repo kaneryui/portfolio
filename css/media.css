@@ -382,18 +382,26 @@
 		text-align: center;
 	}
 	
+	.fir_list{
+		height:100%;
+		background-position:center;
+		
+		
+	}
 	.fir_list li{
-		width:200px;
+		width:107px;
 		height:auto;
-		margin-left: 30px;
+		margin-left: 10px;
+		margin-top:30px;
 	}
 	
 	.fir_list .box_4{
 		text-align: center;
 		margin: 0;
-		padding-top:80px;
-		padding-left:30px;
-		width:350px;
+		padding-top:30px;
+		padding-left:55px;
+		padding-bottom: 150px;
+		width:250px;
 	}
 	.fir_list li img{
 		width:100%;
@@ -403,25 +411,34 @@
 	}
 	
 	.fir_list p{
-		top:850px;
+		top:570px;
 		font-size: 30px;
+		text-align: center;
 	}
 	
 	/*두번째리스트*/
 	
 	
+	.sec_list{
+		margin-top:0px;
+		height:100%;
+		background-position:center;
+				
+	}
 	.sec_list li{
-		width:200px;
+		width:107px;
 		height:auto;
-		margin-left: 30px;
+		margin-left: 10px;
+		margin-top: 30px;
 	}
 	
 	.sec_list .box_4{
 		text-align: center;
 		margin: 0;
-		padding-top:80px;
-		padding-left:30px;
-		width:350px;
+		padding-top:30px;
+		padding-left:55px;
+		padding-bottom: 150px;
+		width:250px;
 	}
 	.sec_list li img{
 		width:100%;
@@ -431,25 +448,36 @@
 	}
 	
 	.sec_list p{
-		top:850px;
+		top:590px;
 		font-size: 30px;
+		text-align: center;
+		right:130px;
 	}
+	
 	
 	
 	/*세번째리스트*/
 	
+	.thi_list{
+		margin-top:0px;
+		height:100%;
+		background-position:center;
+				
+	}
 	.thi_list li{
-		width:200px;
+		width:107px;
 		height:auto;
-		margin-left: 30px;
+		margin-left: 10px;
+		margin-top: 30px;
 	}
 	
 	.thi_list .box_4{
 		text-align: center;
 		margin: 0;
-		padding-top:80px;
-		padding-left:30px;
-		width:350px;
+		padding-top:30px;
+		padding-left:55px;
+		padding-bottom: 150px;
+		width:250px;
 	}
 	.thi_list li img{
 		width:100%;
@@ -459,11 +487,11 @@
 	}
 	
 	.thi_list p{
-		top:850px;
+		top:590px;
+		right:130px;
 		font-size: 30px;
+		text-align: center;
 	}
-	
-	
 	/*배너*/
 	
 	.banner h2{
@@ -484,10 +512,10 @@
 		margin-top: 50px;
 	}
 	.banner_list li{
-		width:650px;
-		height: 291px;
-		margin-left: 50px;
-		margin-bottom: 20px;
+		width:330px;
+		height:148px;
+		margin-left: 15px;
+		margin-bottom: 10px;
 	}
 	.banner_list li img{
 		width:100%;
@@ -495,15 +523,15 @@
 	}
 	
 	.banner_list .ban_11{
-		margin-left:25px;
-		width:700px;
-		height: 105px;
+		margin-left:5px;
+		width:350px;
+		height:52px;
 	}
 
 	.banner_list>.ban_12{
-		margin-left:25px;
-		width:700px;
-		height:105px;
+		margin-left:5px;
+		width:350px;
+		height:52px;
 	}
 	
 	/*모바일*/
@@ -512,7 +540,8 @@
 	}
 	.mo_ba li{
 		width:300px;
-		margin-left: 50px;
+		margin-left: 30px;
+		margin-bottom: 10px;
 	}
 	
 	/*etc*/
@@ -521,33 +550,33 @@
 	}
 	.etc li{
 		margin: 0;
-		margin-left: 10px;
-		margin-bottom: 10px;
+		margin-left:7px;
+		margin-bottom:7px;
 		width:350px;
 		height: 519px;
 		
 	}
 	.etc .etc1{
-		margin-left:20px;
+		margin-left:7px;
 	}
 	.etc .etc3{
-		margin-left: 20px;
+		margin-left: 7px;
 	}
 	
 	.etc .etc4{
-		margin-left: 60px;
-		width:624px;
-		height: 212px;
+		margin-left: 5px;
+		width:350px;
+		height:118px;
 	}
 	.etc .etc5{
-		margin-left: 60px;
-		width:624px;
-		height: 212px;
+		margin-left: 5px;
+		width:350px;
+		height: 118px;
 	}
 	.etc .etc6{
-		margin-left: 60px;
-		width:624px;
-		height: 212px;
+		margin-left: 5px;
+		width:350px;
+		height:118px;
 	}
 
 }
