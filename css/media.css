@@ -53,7 +53,7 @@
 	
 	#container{padding:20px 0;}
 	.main_con{background-image:none;}
-	.main_con h2{
+	.main_con>h2{
 		padding-bottom:80px;
 		font-size:30px;
 	}
@@ -75,6 +75,18 @@
 		
 	}
     
+	/*상세페이지 버튼*/
+	
+	.sub_con{
+		margin: 0 auto;
+	}
+	
+	/*웹사이트 텍스트*/
+	
+	.list_txt{
+		font-size:18px;
+	}
+	
     /****서브****/
     
     /*메뉴*/
@@ -88,6 +100,9 @@
     #menu li a, #menu li.active a{
         padding:9px 17px;
     }
+	
+	
+	
     /**소리바다**/
     
     /*1*/
@@ -356,5 +371,183 @@
     .samdis_wrap .samdis_thi{background:none;}
     
     
+	
+	/*****상세페이지*****/
+	
+	/*첫번째리스트*/
+	.dvp_con>h2{
+		font-size: 25px;
+		padding-top: 50px;
+		padding-left: 0;
+		text-align: center;
+	}
+	
+	.fir_list li{
+		width:200px;
+		height:auto;
+		margin-left: 30px;
+	}
+	
+	.fir_list .box_4{
+		text-align: center;
+		margin: 0;
+		padding-top:80px;
+		padding-left:30px;
+		width:350px;
+	}
+	.fir_list li img{
+		width:100%;
+	}
+	.fir_list li img:hover{
+		transform: none;
+	}
+	
+	.fir_list p{
+		top:850px;
+		font-size: 30px;
+	}
+	
+	/*두번째리스트*/
+	
+	
+	.sec_list li{
+		width:200px;
+		height:auto;
+		margin-left: 30px;
+	}
+	
+	.sec_list .box_4{
+		text-align: center;
+		margin: 0;
+		padding-top:80px;
+		padding-left:30px;
+		width:350px;
+	}
+	.sec_list li img{
+		width:100%;
+	}
+	.sec_list li img:hover{
+		transform: none;
+	}
+	
+	.sec_list p{
+		top:850px;
+		font-size: 30px;
+	}
+	
+	
+	/*세번째리스트*/
+	
+	.thi_list li{
+		width:200px;
+		height:auto;
+		margin-left: 30px;
+	}
+	
+	.thi_list .box_4{
+		text-align: center;
+		margin: 0;
+		padding-top:80px;
+		padding-left:30px;
+		width:350px;
+	}
+	.thi_list li img{
+		width:100%;
+	}
+	.thi_list li img:hover{
+		transform: none;
+	}
+	
+	.thi_list p{
+		top:850px;
+		font-size: 30px;
+	}
+	
+	
+	/*배너*/
+	
+	.banner h2{
+		font-size: 25px;
+		text-align: center;
+		padding-left: 0;
+	}
+	
+	.banner p{
+		font-size: 20px;
+		
+	}
+	.banner .right_txt{
+		width:60px;
+	}
+	
+	.banner_list{
+		margin-top: 50px;
+	}
+	.banner_list li{
+		width:650px;
+		height: 291px;
+		margin-left: 50px;
+		margin-bottom: 20px;
+	}
+	.banner_list li img{
+		width:100%;
+		height: 100%;
+	}
+	
+	.banner_list .ban_11{
+		margin-left:25px;
+		width:700px;
+		height: 105px;
+	}
+
+	.banner_list>.ban_12{
+		margin-left:25px;
+		width:700px;
+		height:105px;
+	}
+	
+	/*모바일*/
+	
+	.mo_ba{
+	}
+	.mo_ba li{
+		width:300px;
+		margin-left: 50px;
+	}
+	
+	/*etc*/
+	
+	.etc{
+	}
+	.etc li{
+		margin: 0;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		width:350px;
+		height: 519px;
+		
+	}
+	.etc .etc1{
+		margin-left:20px;
+	}
+	.etc .etc3{
+		margin-left: 20px;
+	}
+	
+	.etc .etc4{
+		margin-left: 60px;
+		width:624px;
+		height: 212px;
+	}
+	.etc .etc5{
+		margin-left: 60px;
+		width:624px;
+		height: 212px;
+	}
+	.etc .etc6{
+		margin-left: 60px;
+		width:624px;
+		height: 212px;
+	}
 
 }
